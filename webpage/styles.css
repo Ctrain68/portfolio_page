@@ -155,5 +155,7 @@ main {
 }
 
 .contact-links{
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
+  
 }
