@@ -38,6 +38,9 @@ body::-webkit-scrollbar-thumb{
   font-size: 30px;
 }
 
+.heading{
+  margin:0;
+}
 
 .first-name{
   color:black;
@@ -157,12 +160,15 @@ main {
 .contact-links{
   display: flex;
   flex-direction: row;
+  justify-content:center ;
+  width: 100%;
+  flex-wrap: wrap;
   
   
 }
 
 .svg_items_home{
 
-  width: 2rem;
-
+  width:2rem;
+  margin: 1rem;
 }
