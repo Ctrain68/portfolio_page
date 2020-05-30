@@ -1,6 +1,12 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
 :root {
   font-size:16px;
-  font-family: 'Open Sans';
+  font-family: 'Roboto', sans-serif;
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
 }
@@ -39,7 +45,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .heading{
-  margin:0;
+  margin:20px;
 }
 
 .first-name{
@@ -116,8 +122,27 @@ body::-webkit-scrollbar-thumb{
 }
 
 
+#identity{
+  display: flex;
+}
+
+.identity{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title_description{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+
+
 main {
-  margin-top: 4rem;
+  margin-top: 2rem;
   padding: 1rem;
 }
 
@@ -125,10 +150,12 @@ main {
   display: flex;
   align-content: center;
   justify-content: center;
+  
 }
 
 .me{
   display: flex;
+ 
 }
 
 .info-box:nth-child(2){
@@ -171,4 +198,60 @@ main {
 
   width:2rem;
   margin: 1rem;
+}
+
+.description_container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 4rem;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.columns_centered{
+display: flex;
+flex-wrap: wrap;
+}
+
+.column{
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 0.75rem;
+    border: solid;
+    border-radius: 12px;
+    border-width: 0.25px;
+    justify-content: center;
+    text-align: center;
+    width: 33%;
+    margin: 1rem;
+
+}
+
+
+
+.box{
+  align-items: center;
+  height: 50vh;
+}
+
+.list{
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.list-title{
+  font-weight: 1200;
+  color: #85827d;
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  margin-bottom: 0em;
+}
+
+p{
+  margin-top: 0;
 }
