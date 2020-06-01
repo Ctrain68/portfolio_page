@@ -74,7 +74,9 @@ body::-webkit-scrollbar-thumb{
 
 }
 
-
+.nav-item{
+  margin-top: 0em;
+}
 
 .navbar {
   width: 100%;
@@ -101,7 +103,7 @@ body::-webkit-scrollbar-thumb{
       display: flex;
       align-items: flex-start;
       flex-direction: row;
-      padding: 1rem;
+      padding: 1.5rem;
       font-size: 14px;
       color: var(--text-primary);
       text-decoration: none;
@@ -114,6 +116,11 @@ body::-webkit-scrollbar-thumb{
 .nav-link:hover {
   background-color: black;
   color: white;
+}
+
+.active{
+  background-color: black;
+  color:white;
 }
 
 .picture{
@@ -269,5 +276,78 @@ flex-wrap: wrap;
 }
 
 li{
+  margin-top: 1rem;
+}
+
+#about.description_container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 4rem;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+#about.columns_centered{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+align-content: center;
+}
+
+#about.column{
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 0.75rem;
+    border: solid;
+    border-radius: 12px;
+    border-width: 0.25px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 1rem;
+
+}
+
+
+
+#about.box{
+  align-items: center;
+  height: 50vh;
+}
+
+#about.list{
+  list-style: none;
+  padding-left: 0;
+  margin: 2rem;
+}
+
+#about.list-title{
+  font-weight: 1200;
+  color: #85827d;
+  margin: 2rem;
+  font-size: 1.25rem;
+  
+}
+
+#about.column-info{
+  margin-top: 0;
+}
+
+#about.image{
+  display:flex;
+  justify-content: center;
+}
+
+#about.is-skill-icon{
+  align-self: center;
+  height:48px;
+  width: auto;
+}
+
+li#about{
   margin-top: 1rem;
 }
