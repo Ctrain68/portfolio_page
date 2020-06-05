@@ -179,7 +179,7 @@ main {
 
 
 #pic_of_me.picture{
-  background-image: url("About_me.jpg");
+  background-image: url("/resources/About_me.jpg");
   padding-top:50%;
   margin-right: 0.5rem;
  
