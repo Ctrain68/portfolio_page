@@ -325,7 +325,7 @@ align-content: center;
   justify-content: center;
   text-align: center;
   padding: 1rem;
-  width: 30%;
+  width: 100%;
  
 }
 
@@ -475,4 +475,15 @@ li#blog{
     justify-content: space-evenly;
     flex-wrap: nowrap;
   }
+
+  .work_history{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    width: 30%;
+   
+  }
+
+
 }
